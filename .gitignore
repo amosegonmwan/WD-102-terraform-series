@@ -1,0 +1,42 @@
+# Terraform specific files
+*.tfstate
+*.tfstate.*
+crash.log
+*.tfvars
+*.tfvars.json
+override.tf
+override.tf.json
+*_override.tf
+*_override.tf.json
+.terraform/
+.terraform.lock.hcl
+
+# .env files (if you use environment variables)
+.env
+.env.*
+
+# Sensitive AWS files
+aws_credentials
+.aws/credentials
+.aws/config
+
+# Local Terraform files
+terraform.tfvars
+terraform.tfstate
+terraform.tfstate.backup
+
+# Lock files
+*.lock
+
+# Ignore Terraform plan output files
+*.tfplan
+
+# Ignore metadata files
+*.DS_Store
+
+# Ignore IDE specific files
+.vscode/
+.idea/
+
+# Git specific files
+.git/
